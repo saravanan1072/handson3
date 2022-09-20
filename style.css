@@ -1,0 +1,134 @@
+body{
+    background-color: grey;
+}
+
+.first{
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px blueviolet;
+    font-weight: bold;
+    border: 5px solid red;
+    box-shadow: 5px 5px 1px purple;
+    margin-left: 500px;
+    border-radius: 15px;
+}
+.parent{
+    width: auto;
+    height: 650px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px solid green;
+    position: relative;
+    text-shadow: 1px 1px 1px blue;
+}
+.test1,.test3,.test4{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    border: 5px solid red;
+    position: absolute;
+    box-shadow: 5px 5px 1px purple;
+    
+}
+
+.c{
+    display: inline-block;
+    border: 5px solid red;
+    position: absolute;
+    margin-top: 400px;
+}
+.test4{
+    border: 5px solid red;
+    display: inline-block;
+    position: absolute; 
+     margin-top: 400px;
+     margin-left: 1000px;
+    
+}
+img{
+    width: 189px;
+    padding: 10px;
+    
+}
+.test2{
+    background-color: white;
+    width: 220px;
+    height: 220px;
+   
+   position: absolute;
+   margin-left: 1000px;
+   display: flex;
+    border-radius: 15px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 1px purple;
+   
+  background-size: contain;
+ 
+   
+    background-repeat: no-repeat;
+   
+  
+}
+
+.parent1{
+    background-color: greenyellow;
+    border: 5px solid red;
+    width: 400px;
+    box-shadow: 5px 5px 1px purple;
+    position: fixed;
+    margin-left: 400px;
+   
+    border-radius: 10px;
+    z-index: 1;
+    bottom: 0px;
+
+}
+.child1{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    /* position: fixed; */
+}
+.child2{
+    display: inline-block;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+
+.parent2{
+    background-color: green;
+    width: 700px;
+    height: 700px;
+    border: 5px solid purple;
+    margin-left: 300px;
+  margin-top: 100px;
+
+}
+.chi1,.chi2,.chi3{
+    width: 300px;
+    height: 250px;
+    margin: 13px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 40px;
+    background-color: rgb(150, 173, 102);
+    display: inline-block;
+}
+.chi3{
+    width: 650px;
+}
